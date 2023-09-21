@@ -58,6 +58,7 @@ const productosTienda = [
       cantidad: 12,
       precioUnitario: 10.99,
     },
+    //ᴄʜᴏᴄᴏ-sᴇʀɪᴇs//
     {
       id: 9,
       pasillo: "ᴄʜᴏᴄᴏ-sᴇʀɪᴇs",
@@ -77,35 +78,35 @@ const productosTienda = [
     {
       id: 11,
       pasillo: "ʙᴏʙᴀᴡᴀʀ",
-      nombre: "Boba Thai Tea",
+      nombre: "ʙᴏʙᴀ ᴛʜᴀɪ ᴛᴇᴀ",
       cantidad: 2,
       precioUnitario: 14.99,
     },
     {
       id: 12,
       pasillo: "ʙᴏʙᴀᴡᴀʀ",
-      nombre: "ʙᴏʙᴀ ᴛʜᴀɪ ᴛᴇᴀ",
+      nombre: "ʙᴏʙᴀ ᴘᴀʟᴀᴄɪᴏs ᴛᴇᴀ",
       cantidad: 1,
       precioUnitario: 11.99, 
     },
     {
       id: 13,
       pasillo: "ʙᴏʙᴀᴡᴀʀ",
-      nombre: "Boba Green Tea",
+      nombre: "ʙᴏʙᴀ ᴊᴜɪᴄᴇ ᴅʀɪɴᴋ",
       cantidad: 4,
       precioUnitario: 9.99, 
     },
     {
       id: 14,
       pasillo: "ʙᴏʙᴀᴡᴀʀ", 
-      nombre: "ʙᴏʙᴀ ɢʀᴇᴇɴ ᴛᴇᴀ",
+      nombre: "ʙᴏʙᴀ sᴛᴀʀᴡᴀʀ ᴛᴇᴀ",
       cantidad: 3,
       precioUnitario: 9.99,
     },
     {
       id: 15,
       pasillo: "ʙᴏʙᴀᴡᴀʀ",
-      nombre:  "ʙᴏʙᴀ ᴀʀɢᴇɴᴛɪɴᴀ",
+      nombre:  "ʙᴏʙᴀ ᴄᴀᴍᴘᴇᴏɴᴇs ᴅᴇʟ ᴍᴜɴᴅᴏ",
       cantidad: 2,
       precioUnitario: 15.99,  
     },
@@ -114,7 +115,7 @@ const productosTienda = [
       id: 16,
       pasillo: "Topping",
       nombre: "ᴄʜᴏᴄᴏ ᴄʀᴇᴀᴍ +𝟺ᴋ",
-      cantidad: 6,
+      cantidad: 3,
       precioUnitario: 2,
     },
   ];
@@ -133,14 +134,14 @@ const productosTienda = [
         (producto) => producto.pasillo == tipoPasillo
       );
       let mensaje =
-        "ᴜsᴛᴇᴅ ᴇsᴛᴀ ᴇɴ ᴇʟ ᴘᴀsɪʟʟᴏ: " +
+        "ᴜsᴛᴇᴅ ᴇsᴛᴀ ᴇɴ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴘʀᴏᴅᴜᴄᴛᴏs ᴅᴇ: " +
         tipoPasillo +
-        ". ʟᴏs ᴘʀᴏᴅᴜᴄᴛᴏs ᴅɪsᴘᴏɴɪʙʟᴇs sᴏɴ:\n";
+        ". 🌟 ʟᴏs ᴘʀᴏᴅᴜᴄᴛᴏs ᴅɪsᴘᴏɴɪʙʟᴇs sᴏɴ: \n";
       let salida =
         mensaje +
         productosFiltrados
           .map((producto) => {
-            return `ID: ${producto.id}  ${producto.nombre} $${producto.precioUnitario}`;
+            return `ID: ${producto.id}  ${producto.nombre} $${producto.precioUnitario} 💸`;
           })
           .join("\n");
       alert(salida);
@@ -149,37 +150,37 @@ const productosTienda = [
   
   switch (opcion) {
     case 1:
-        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇᴛᴇ-sᴇʀɪᴇs ");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇᴛᴇ-sᴇʀɪᴇs ✨");
         identificador("ᴛᴇ-sᴇʀɪᴇs");
         break;
     case 2:
-        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ɪᴄᴇ-ᴅʀɪɴᴋ");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ɪᴄᴇ-ᴅʀɪɴᴋ ✨✔️");
         identificador("Ice-Drink");
         break;
     case 3:
-        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄᴏғғᴇ-sᴇʀɪᴇs");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄᴏғғᴇ-sᴇʀɪᴇs ✨💯");
         identificador("ᴄᴏғғᴇ-sᴇʀɪᴇs");
         break;
          case 4:
-        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄʜᴏᴄᴏ-sᴇʀɪᴇs");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄʜᴏᴄᴏ-sᴇʀɪᴇs ✨🎉");
         identificador("ᴄʜᴏᴄᴏ-sᴇʀɪᴇs");
         break; 
     case 5:
-        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ʙᴏʙᴀᴡᴀʀ");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ʙᴏʙᴀᴡᴀʀ ✨🌈");
         identificador("ʙᴏʙᴀᴡᴀʀ");
         break;
     case 6:
-        case 7:
-            alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴛᴏᴘᴘɪɴɢ"); 
-            identificador("ᴛᴏᴘᴘɪɴɢ");        
+      alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴛᴏᴘᴘɪɴɢ ✨❤️"); 
+      identificador("ᴛᴏᴘᴘɪɴɢ");  
+      break;      
     default:
       alert(
-        "ᴇʟɪɢᴀ ᴜɴ ᴘʀᴏᴅᴜᴄᴛᴏ ᴘᴀʀᴀ ᴄᴏɴᴛɪɴᴜᴀʀ ᴄᴏɴ sᴜ ᴄᴏᴍᴘʀᴀ"
+        "ᴇʟɪɢᴀ ᴜɴ ᴘʀᴏᴅᴜᴄᴛᴏ ᴘᴀʀᴀ ᴄᴏɴᴛɪɴᴜᴀʀ ᴄᴏɴ sᴜ ᴄᴏᴍᴘʀᴀ ❤️"
       );
   }
   
   let productoASeleccionar = prompt(
-    "¿ǫᴜᴇ ᴄʜᴇʀɪsʙᴜʙᴀ ɪᴛᴇᴍ ᴅᴇsᴇᴀ?. \n ᴘᴀʀᴀ ᴇʟᴇɢɪʀ ᴜɴ ɪᴛᴇᴍ sᴏʟᴏ ᴇsᴄʀɪʙᴀ ᴇʟ ɪᴅ ǫᴜᴇ ʟᴇ ᴄᴏʀʀᴇsᴘᴏɴᴅᴀ. 💲"
+    "¿ǫᴜᴇ ᴄʜᴇʀɪsʙᴜʙᴀ ɪᴛᴇᴍ ᴅᴇsᴇᴀ?.  \n ᴘᴀʀᴀ ᴇʟᴇɢɪʀ ᴜɴ ɪᴛᴇᴍ sᴏʟᴏ ᴇsᴄʀɪʙᴀ ᴇʟ ɪᴅ ǫᴜᴇ ʟᴇ ᴄᴏʀʀᴇsᴘᴏɴᴅᴀ. 💲"
   );
   
   function selecccionDeProductos() {
@@ -187,7 +188,7 @@ const productosTienda = [
       let productoElegido = productosTienda.find(
         (producto) => producto.id == productoASeleccionar
       );
-      let comunicado = `ᴜsᴛᴇᴅ ʜᴀ ᴇʟᴇɢɪᴅᴏ ᴇʟ ᴘʀᴏᴅᴜᴄᴛᴏ: ${productoElegido.nombre}\n ᴄᴏɴ ᴘʀᴇᴄɪᴏ ᴜɴɪᴛᴀʀɪᴏ: $${productoElegido.precioUnitario}\n Con ID ${productoElegido.id}`;
+      let comunicado = `ᴜsᴛᴇᴅ ʜᴀ ᴇʟᴇɢɪᴅᴏ ᴇʟ ᴘʀᴏᴅᴜᴄᴛᴏ: ${productoElegido.nombre}😵‍💫\n ᴄᴏɴ ᴘʀᴇᴄɪᴏ ᴜɴɪᴛᴀʀɪᴏ: $${productoElegido.precioUnitario}\n Con ID ${productoElegido.id}`;
       alert(comunicado);
     }
   }
@@ -196,10 +197,10 @@ const productosTienda = [
   let pregunta;
   
   do {
-    pregunta = Number(prompt("ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ ᴏ ᴘᴀʀᴀ ʟʟᴇᴠᴀʀ?\n ᴇsᴄʀɪʙᴀ 1 sɪ ᴅᴇsᴇᴀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ.\n ᴇsᴄʀɪʙᴀ 2 sɪ ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ sᴜ ʙᴇʙɪᴅᴀ. "));
+    pregunta = Number(prompt("ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ ᴏ ᴘᴀʀᴀ ʟʟᴇᴠᴀʀ? 🤩 \n ᴇsᴄʀɪʙᴀ 1 sɪ ᴅᴇsᴇᴀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ. ❤️🤘\n ᴇsᴄʀɪʙᴀ 2 sɪ ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ sᴜ ʙᴇʙɪᴅᴀ. 😜"));
 
     if (pregunta !== 1 && pregunta !== 2) {
-        alert("ʀᴇsᴘᴜᴇsᴛᴀ ɴᴏ ᴠáʟɪᴅᴀ. ᴘᴏʀ ғᴀᴠᴏʀ, ɪɴɢʀᴇsᴇ ᴜɴ ɴᴜᴍᴇʀᴏ");
+        alert("ʀᴇsᴘᴜᴇsᴛᴀ ɴᴏ ᴠáʟɪᴅᴀ. ᴘᴏʀ ғᴀᴠᴏʀ, ɪɴɢʀᴇsᴇ ᴜɴ ɴᴜᴍᴇʀᴏ 🤪🤥");
         }
     } while (pregunta !== 1 && pregunta !== 2);
 

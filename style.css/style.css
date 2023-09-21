@@ -68,11 +68,19 @@ button {
    /*Footer*/
 .footere {
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 29%;
-    height: 90%;
-    font-weight: 20px;
-    color: blanchedalmond;
+    width: 99%;
+    height: 50%;
+    font-weight: 10%;
+}
+
+h6 {
+  display: center;
+  justify-content: center;
+  width: 10%;
+  height: 20%;
+  align-items: center;
+  
 }
