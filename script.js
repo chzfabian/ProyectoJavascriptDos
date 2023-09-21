@@ -2,22 +2,22 @@ const productosTienda = [
         // Te-Series//
     {
       id: 1,
-      pasillo: "Tea-Series",
-      nombre: "Thai Tea",
+      pasillo: "ᴛᴇ-sᴇʀɪᴇs",
+      nombre: "ᴛʜᴀɪ ᴛᴇᴀ",
       cantidad: 2,
-      precioUnitario: 5.99
+      precioUnitario: 5.99,
     },
     {
       id: 2,
-      pasillo: "Tea-Series",
-      nombre: "Green Tea",
+      pasillo: "ᴛᴇ-sᴇʀɪᴇs",
+      nombre: "ɢʀᴇᴇɴ ᴛᴇᴀ",
       cantidad: 3,
       precioUnitario: 6.99,
     },
     {
       id: 3,
-      pasillo: "Tea-Series",
-      nombre: "Lemon Tea",
+      pasillo: "ᴛᴇ-sᴇʀɪᴇs",
+      nombre: "ʟᴇᴍᴏɴ ᴛᴇᴀ",
       cantidad: 1,
       precioUnitario: 6.99,
     },
@@ -25,87 +25,95 @@ const productosTienda = [
     {
       id: 4,
       pasillo: "Ice-Drink",
-      nombre: "Chocolate",
+      nombre: "ᴄʜᴏᴄᴏʟᴀᴛᴇ",
       cantidad: 5,
       precioUnitario: 9.5,
     },
     {
       id: 5,
       pasillo: "Ice-Drink",
-      nombre: "Red Velvet",
+      nombre: "ʀᴇᴅ ᴠᴇʟᴠᴇᴛ",
       cantidad: 1,
       precioUnitario: 9.5,
     },
     {
       id: 6,
       pasillo: "Ice-Drink",
-      nombre: "MILO",
+      nombre: "ᴍɪʟᴏ",
       cantidad: 3,
       precioUnitario: 9.99,
     },
-        //Coffe-Series //  
+        //ᴄᴏғғᴇ-sᴇʀɪᴇs //  
     {
       id: 7,
-      pasillo: "Coffe-Series",
-      nombre:  "Kopaja",
+      pasillo: "ᴄᴏғғᴇ-sᴇʀɪᴇs",
+      nombre:  "ᴋᴏᴘᴀᴊᴀ",
       cantidad: 2,
       precioUnitario: 9.99,
     },
     {
       id: 8,
-      pasillo: "Coffe-Series",
-      nombre:  "Kopi Suren",
+      pasillo: "ᴄᴏғғᴇ-sᴇʀɪᴇs",
+      nombre:  "ᴋᴏᴘɪ sᴜʀᴇɴ",
       cantidad: 12,
       precioUnitario: 10.99,
     },
     {
       id: 9,
-      pasillo: "Coffe-Series",
-      nombre: "Kopi Suklat",
+      pasillo: "ᴄʜᴏᴄᴏ-sᴇʀɪᴇs",
+      nombre: "ᴋᴏᴘɪ ᴍᴀᴋɪᴀᴛᴏ",
       cantidad: 1,
       precioUnitario: 11.99,
     },
-        //BobaWar//  
     {
-      id: 10,
-      pasillo: "BobaWar",
+    id: 10,
+      pasillo: "ᴄʜᴏᴄᴏ-sᴇʀɪᴇs",
+      nombre: "ᴋᴏᴘɪ ᴍᴀᴋɪᴀᴛᴏxx",
+      cantidad: 1,
+      precioUnitario: 14.99,
+
+    },
+        //ʙᴏʙᴀᴡᴀʀ//  
+    {
+      id: 11,
+      pasillo: "ʙᴏʙᴀᴡᴀʀ",
       nombre: "Boba Thai Tea",
       cantidad: 2,
       precioUnitario: 14.99,
     },
     {
-      id: 11,
-      pasillo: "BobaWar",
-      nombre: "Boba Chocolate",
+      id: 12,
+      pasillo: "ʙᴏʙᴀᴡᴀʀ",
+      nombre: "ʙᴏʙᴀ ᴛʜᴀɪ ᴛᴇᴀ",
       cantidad: 1,
       precioUnitario: 11.99, 
     },
     {
-      id: 12,
-      pasillo: "BobaWar",
+      id: 13,
+      pasillo: "ʙᴏʙᴀᴡᴀʀ",
       nombre: "Boba Green Tea",
       cantidad: 4,
       precioUnitario: 9.99, 
     },
     {
-      id: 13,
-      pasillo: "BobaWar", 
-      nombre: "Boba Taro",
+      id: 14,
+      pasillo: "ʙᴏʙᴀᴡᴀʀ", 
+      nombre: "ʙᴏʙᴀ ɢʀᴇᴇɴ ᴛᴇᴀ",
       cantidad: 3,
       precioUnitario: 9.99,
     },
     {
-      id: 14,
-      pasillo: "BobaWar",
-      nombre:  "Boba Argentina",
+      id: 15,
+      pasillo: "ʙᴏʙᴀᴡᴀʀ",
+      nombre:  "ʙᴏʙᴀ ᴀʀɢᴇɴᴛɪɴᴀ",
       cantidad: 2,
       precioUnitario: 15.99,  
     },
      //Topping//  
     {
-      id: 15,
+      id: 16,
       pasillo: "Topping",
-      nombre: "Choco Cream +4k",
+      nombre: "ᴄʜᴏᴄᴏ ᴄʀᴇᴀᴍ +𝟺ᴋ",
       cantidad: 6,
       precioUnitario: 2,
     },
@@ -125,9 +133,9 @@ const productosTienda = [
         (producto) => producto.pasillo == tipoPasillo
       );
       let mensaje =
-        "Usted esta en el pasillo: " +
+        "ᴜsᴛᴇᴅ ᴇsᴛᴀ ᴇɴ ᴇʟ ᴘᴀsɪʟʟᴏ: " +
         tipoPasillo +
-        ". Los productos disponibles son:\n";
+        ". ʟᴏs ᴘʀᴏᴅᴜᴄᴛᴏs ᴅɪsᴘᴏɴɪʙʟᴇs sᴏɴ:\n";
       let salida =
         mensaje +
         productosFiltrados
@@ -141,37 +149,37 @@ const productosTienda = [
   
   switch (opcion) {
     case 1:
-        alert("Usted decidio la categoria de Te-Series");
-        identificador("Te-Series");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇᴛᴇ-sᴇʀɪᴇs ");
+        identificador("ᴛᴇ-sᴇʀɪᴇs");
         break;
     case 2:
-        alert("Usted decidio la categoria de Ice-Drink");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ɪᴄᴇ-ᴅʀɪɴᴋ");
         identificador("Ice-Drink");
         break;
     case 3:
-        alert("Usted decidio la categoria de Coffe-Series");
-        identificador("Coffe-Series");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄᴏғғᴇ-sᴇʀɪᴇs");
+        identificador("ᴄᴏғғᴇ-sᴇʀɪᴇs");
         break;
-    case 4:
-        alert("Usted decidio la categoria de Choco-Series");
-        identificador("Choco-Series");
-        break;
+         case 4:
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴄʜᴏᴄᴏ-sᴇʀɪᴇs");
+        identificador("ᴄʜᴏᴄᴏ-sᴇʀɪᴇs");
+        break; 
     case 5:
-        alert("Usted decidio la categoria de BobaWar");
-        identificador("BobaWar");
+        alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ʙᴏʙᴀᴡᴀʀ");
+        identificador("ʙᴏʙᴀᴡᴀʀ");
         break;
     case 6:
-        case 6:
-            alert("Usted decidio la categoria de Topping"); 
-            identificador("Topping");        
+        case 7:
+            alert("ᴜsᴛᴇᴅ ᴅᴇᴄɪᴅɪᴏ ʟᴀ ᴄᴀᴛᴇɢᴏʀɪᴀ ᴅᴇ ᴛᴏᴘᴘɪɴɢ"); 
+            identificador("ᴛᴏᴘᴘɪɴɢ");        
     default:
       alert(
-        "Eliga un producto para continuar con su compra"
+        "ᴇʟɪɢᴀ ᴜɴ ᴘʀᴏᴅᴜᴄᴛᴏ ᴘᴀʀᴀ ᴄᴏɴᴛɪɴᴜᴀʀ ᴄᴏɴ sᴜ ᴄᴏᴍᴘʀᴀ"
       );
   }
   
   let productoASeleccionar = prompt(
-    "¿Que CherisBuBa item desea?. \n Para elegir un item solo escriba el ID que le corresponda."
+    "¿ǫᴜᴇ ᴄʜᴇʀɪsʙᴜʙᴀ ɪᴛᴇᴍ ᴅᴇsᴇᴀ?. \n ᴘᴀʀᴀ ᴇʟᴇɢɪʀ ᴜɴ ɪᴛᴇᴍ sᴏʟᴏ ᴇsᴄʀɪʙᴀ ᴇʟ ɪᴅ ǫᴜᴇ ʟᴇ ᴄᴏʀʀᴇsᴘᴏɴᴅᴀ. 💲"
   );
   
   function selecccionDeProductos() {
@@ -179,7 +187,7 @@ const productosTienda = [
       let productoElegido = productosTienda.find(
         (producto) => producto.id == productoASeleccionar
       );
-      let comunicado = `Usted ha elegido el producto: ${productoElegido.nombre}\n Con precio Unitario: $${productoElegido.precioUnitario}\n Con ID ${productoElegido.id}`;
+      let comunicado = `ᴜsᴛᴇᴅ ʜᴀ ᴇʟᴇɢɪᴅᴏ ᴇʟ ᴘʀᴏᴅᴜᴄᴛᴏ: ${productoElegido.nombre}\n ᴄᴏɴ ᴘʀᴇᴄɪᴏ ᴜɴɪᴛᴀʀɪᴏ: $${productoElegido.precioUnitario}\n Con ID ${productoElegido.id}`;
       alert(comunicado);
     }
   }
@@ -188,17 +196,17 @@ const productosTienda = [
   let pregunta;
   
   do {
-    pregunta = Number(prompt("Desea llevar consumir en el local o para llevar?\nEscriba 1 si desea consumir en el local.\n Escriba 2 si desea llevar su bebida. "));
+    pregunta = Number(prompt("ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ ᴏ ᴘᴀʀᴀ ʟʟᴇᴠᴀʀ?\n ᴇsᴄʀɪʙᴀ 1 sɪ ᴅᴇsᴇᴀ ᴄᴏɴsᴜᴍɪʀ ᴇɴ ᴇʟ ʟᴏᴄᴀʟ.\n ᴇsᴄʀɪʙᴀ 2 sɪ ᴅᴇsᴇᴀ ʟʟᴇᴠᴀʀ sᴜ ʙᴇʙɪᴅᴀ. "));
 
     if (pregunta !== 1 && pregunta !== 2) {
-        alert("Respuesta no válida. Por favor, ingrese un numero");
+        alert("ʀᴇsᴘᴜᴇsᴛᴀ ɴᴏ ᴠáʟɪᴅᴀ. ᴘᴏʀ ғᴀᴠᴏʀ, ɪɴɢʀᴇsᴇ ᴜɴ ɴᴜᴍᴇʀᴏ");
         }
     } while (pregunta !== 1 && pregunta !== 2);
 
     if (pregunta === 1) {
-        alert("Gracias por comprar en Cheris Buba ❤️")
+        alert("ɢʀᴀᴄɪᴀs ᴘᴏʀ ᴄᴏᴍᴘʀᴀʀ ᴇɴ ᴄʜᴇʀɪs ʙᴜʙᴀ 💜💜😜")
     } else if (pregunta === 2) {
-            alert ("Gracias por su visita vuelva pronto a Cheris Buba")
+            alert ("ɢʀᴀᴄɪᴀs ᴘᴏʀ sᴜ ᴠɪsɪᴛᴀ ᴠᴜᴇʟᴠᴀ ᴘʀᴏɴᴛᴏ ᴀ ᴄʜᴇʀɪs ʙᴜʙᴀ 🎉👋")
         } else {
-            alert("Respuesta no válida. Por favor, ingrese un numero");
+            alert("ʀᴇsᴘᴜᴇsᴛᴀ ɴᴏ ᴠáʟɪᴅᴀ. ᴘᴏʀ ғᴀᴠᴏʀ, ɪɴɢʀᴇsᴇ ᴜɴ ɴᴜᴍᴇʀᴏ 😊");
         } 
