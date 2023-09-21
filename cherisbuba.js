@@ -1,10 +1,10 @@
-export const productosTienda = [
+/* export const productosTienda = [
     // Te-Series// 
 {
   id: 1,
   pasillo: "ᴛᴇ-sᴇʀɪᴇs",
   nombre: "ᴛʜᴀɪ ᴛᴇᴀ",
-  cantidad: 2,
+  cantidad: 2,q
   precioUnitario: 5.99,
 },
 {
@@ -119,3 +119,4 @@ id: 10,
   precioUnitario: 2,
 }, 
 ]; 
+ */
